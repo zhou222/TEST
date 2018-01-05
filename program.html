@@ -1,0 +1,29 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<title>周吉林之c转换的网页</title>
+<style type=text/css>
+pre{color:#000000}</style>
+</head>
+<body>
+<p>猜数字游戏的程序：</p>
+<pre><font color="#0088ff">#include</font><font color="#ff0000"><</font>stdio.h<font color="#ff0000">></font></pre>
+<pre><font color="#0088ff">int</font> <font color="#0088ff">main</font><font color="#ff0000">(</font><font color="#0088ff">void</font><font color="#ff0000">)</font></pre>
+<pre><font color="#ff0000">{</font></pre>
+<pre>    <font color="#0088ff">int</font> guess<font color="#ff0000">=</font><font color="#ff0000">1</font><font color="#ff0000">;</font></pre>
+<pre>    <font color="#0088ff">int</font> ch<font color="#ff0000">;</font></pre>
+<pre>    printf<font color="#ff0000">(</font><font color="#ff00ff">"is it %d?\n"</font><font color="#ff0000">,</font>guess<font color="#ff0000">)</font><font color="#ff0000">;</font></pre>
+<pre>    <font color="#0088ff">while</font><font color="#ff0000">(</font><font color="#ff0000">(</font>ch<font color="#ff0000">=</font>getchar<font color="#ff0000">(</font><font color="#ff0000">)</font><font color="#ff0000">)</font><font color="#ff0000">!</font><font color="#ff0000">=</font><font color="#ff00ff">'y'</font><font color="#ff0000">)</font></pre>
+<pre>    <font color="#ff0000">{</font></pre>
+<pre>        <font color="#0088ff">if</font><font color="#ff0000">(</font>ch<font color="#ff0000">=</font><font color="#ff0000">=</font><font color="#ff00ff">'n'</font><font color="#ff0000">)</font></pre>
+<pre>          printf<font color="#ff0000">(</font><font color="#ff00ff">"is it %d?\n"</font><font color="#ff0000">,</font><font color="#ff0000">+</font><font color="#ff0000">+</font>guess<font color="#ff0000">)</font><font color="#ff0000">;</font></pre>
+<pre>        <font color="#0088ff">else</font></pre>
+<pre>          printf<font color="#ff0000">(</font><font color="#ff00ff">"sorry!i can`t understand!i only can understand 'n'or'y'.\n"</font><font color="#ff0000">)</font><font color="#ff0000">;</font></pre>
+<pre>        <font color="#0088ff">while</font><font color="#ff0000">(</font>getchar<font color="#ff0000">(</font><font color="#ff0000">)</font><font color="#ff0000">!</font><font color="#ff0000">=</font><font color="#ff00ff">'\n'</font><font color="#ff0000">)</font></pre>
+<pre>           <font color="#0088ff">continue</font><font color="#ff0000">;</font></pre>
+<pre>    <font color="#ff0000">}</font></pre>
+<pre>    printf<font color="#ff0000">(</font><font color="#ff00ff">"i have got it"</font><font color="#ff0000">)</font><font color="#ff0000">;</font></pre>
+<pre><font color="#ff0000">}</font> </pre>
+
+</body>
+</html>
